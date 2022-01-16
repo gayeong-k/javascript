@@ -1,0 +1,76 @@
+#container{
+    width:100%;
+    margin:0 auto;
+}
+#banner{
+    height:30px;
+    font-size:20px;
+    background-color: #f0d6dbe1;
+    text-align: center;
+    padding: 25px;
+
+}
+
+#search{
+    margin-left:10%;
+}
+.small{
+    width:32%;
+    height:32%;
+}
+#little-container{
+    margin-left: 10%;
+}
+#searching{
+    width:43%;
+    height:20px;
+    margin-bottom: 10px;
+}
+#pic-cloth{
+    float:left;
+    width:50%;
+}
+#menu{
+    font-style: italic;
+   margin-left:30%;
+    margin-top:7px;
+}
+#menu a{
+   margin-left: 25px; 
+}
+#desc{
+    float:left;
+    margin-left:7%;
+    width:40%;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+#searchList p{
+    font-size:20px;
+    text-indent:50px;
+    line-height: 1.5;
+}
+#desc button{
+    margin-top: 10px;
+    margin-right:5px;
+    width:130px;
+    height:35px;
+}
+.small{
+    cursor: pointer;
+}
+.select{
+    text-align: center;
+    width: 180px;
+    height: 28px;
+}
+
+#detail{
+    padding-top: 15px;
+    display: none;
+    margin-left: 10%;
+    padding-bottom: 15px;
+}
+#view{
+    font-size:18px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>쇼핑몰</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+<body>
+    <div id="banner">
+        cloth shop
+    </div>
+    <div id="menu">
+        MENU
+        <a href="#" >SUIT</a>
+        <a href="#" >OUTER</a>
+        <a href="#" >TOP</a>
+        <a href="#" >SHIRTS</a>
+        <a href="#" >BOTTOM</a>
+        <a href="#" >ACC</a>
+        <a href="#" >SALE</a>
+    </div>
+    <div style="background-color:rgba(252, 246, 236, 0.658);">
+    <div id="search">
+        <p id="searchList" style="font-size:18.5px; font-style: italic;">searching</p>
+        <form action="">
+            <input type="text" id="searching" placeholder=" 검색어를 입력하세요" required>
+            <button onclick="newRegister();returnfalse;">검색</button>
+
+        </form>
+        <div id="searchList"></div>
+        
+    </div>
+    <div id="container">
+    <div id="little-container">
+   
+    <div id="pic-cloth">
+    <img src="image/cloth1.jpg" id="cloth" width="98%" height="100%">
+    <div id="small-cloth">
+    <img src="image/cloth1.jpg" class="small"></src>
+    <img src="image/cloth2.jpg" class="small"></src>
+    <img src="image/cloth3.jpg" class="small"></src>
+    </div>
+    </div>
+    <div id="desc">
+        <h2>[EVENT] 뿌 그레이 찌 니트 </h2>
+        <h3>3,6000원</h3> 
+        <p>적립금  &emsp; &emsp; 360 원</p>
+        <p>배송비 &emsp;  &emsp; 2,500 원 (50,000원 이상 결제 시 무료)</p>
+        <p>색상  &emsp; &emsp; &emsp; <select class="select">
+            <option value="">--옵션선택--</option>
+            <option value="gray">gray</option>
+            <option value="gray">ivory</option>
+            <option value="gray">black</option>
+            <option value="gray">yellow</option>
+        </select></p>
+        <p>사이즈 &nbsp; &emsp; &emsp; <select class="select">
+            <option value="">--옵션선택--</option>
+            <option value="gray">S</option>
+            <option value="gray">M</option>
+            <option value="gray">L</option>
+        </select></p>
+        <button>장바구니 담기</button>
+        <button>구매하기</button>
+    </div>
+    </div>
+    </div>
+    <div style="clear:both; margin-left: 10%; height:70px;">
+    <p><a href="#" id="view">상세 설명 보기</a></p>
+    <div id="detail" >
+        <h2>상세 정보</h2>
+        <p>자세한 옷 정보</p>
+        <img src="image/dcloth1.jpg" style="width:250px; height:250px;">
+        <p>질감</p>
+        <img src="image/dcloth2.jpg" style="width:250px; height:250px;">
+    </div>
+    </div>
+    </div>
+    <script src="js/showimg.js"></script>
+    <script src="js/list.js"></script>
+</body>
+</html>
